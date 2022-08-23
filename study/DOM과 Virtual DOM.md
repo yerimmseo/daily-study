@@ -18,7 +18,7 @@ MDN에서는 DOM은 HTML, XML document와 상호작용하고 표현하는 API이
 
 브라우저의 랜더링 엔진은 모든 요소(Element)와 속성(Attribute) 등을 각각의 객체로 만들고 이것을 트리구조로 구성한다. 이를 DOM이라고 한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e277550-9528-4108-81c5-963968183bbf/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/80576569/186079357-61be6c20-1a98-4c3a-af4b-4fe8c491d32b.png)
 
 <br>
 
@@ -49,7 +49,7 @@ DOM은 브라우저에서 로드되는 것이다. 각자의 IDE에서 작성한 
 
 **브라우저 동작 원리**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fe598ee-d176-4b46-b292-e4f2ef1974c1/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/80576569/186079380-995f4f85-7295-4a95-be43-b7a598f27533.png)
 
 브라우저가 HTML을 전달 받으면, 곧 이를 변환(파싱)하고 노드들로 이루어진 DOM 트리를 만든다. 그 후 외부의 CSS 파일과 각 노드들의 inline 스타일을 파싱하여 스타일을 입힌 Render 트리를 만든다.
 
@@ -71,11 +71,11 @@ DOM은 해당 과정을 계속 반복한다. 오타 수정, 문구 제거 혹은
 
 Virtual DOM(이하 가상 DOM)은 수정사항이 여러가지 있더라도 가상 DOM은 한 번만 렌더링을 일으킨다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7013f123-bb29-4619-b49d-fdeeac068998/Untitled.png)
+![Untitled 2](https://user-images.githubusercontent.com/80576569/186079398-a57c9d74-f1cd-411f-90d1-19dea97dd832.png)
 
 위의 그림처럼 가상 DOM은 DOM이 생성되기 전, 이전 상태값과 수정사항을 비교하여 달라진 부분만 DOM에게 한 번에 전달하여 딱 한 번만 렌더링을 진행한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f0307d8-cfcf-4856-8bb3-813cf98fca76/Untitled.png)
+![Untitled 3](https://user-images.githubusercontent.com/80576569/186079425-8aa8163d-20b5-4019-9518-befa58d1a246.png)
 
 빨간 부분에 수정사항이 생겼다면, 가상 DOM이 알아서 달라진 값을 탐지하여 변경하고 최종적인 결과물을 실제 DOM에 전달한다. 만약 가상 DOM이 없었다면, DOM은 렌더링을 처음부터 해야했기 때문에 모든 원이 빨갛게 바뀌었을 것이다.
 
