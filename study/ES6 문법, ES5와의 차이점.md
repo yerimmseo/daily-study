@@ -118,7 +118,7 @@ console.log(num.calc()); // 5 + 8 = 13
 ```
 <br>
 
-7. 모듈
+7. **모듈**
 
 ES5 이전에는 각 기능별로 파일을 나누고 개발 및 관리하는 것이 불가능했다.
 
@@ -184,7 +184,7 @@ export function superMulti(x) {
 ```
 <br>
 
-8. Destructuring 할당
+8. **Destructuring 할당**
 
 Destructuring이란 비구조화, 파괴를 뜻하는 단어이며 크게 객체나 배열에서 사용해서 개별 변수에 할당하는 것이다.
 
@@ -202,13 +202,13 @@ const { lastName, firstName } = obj;
 
 <br>
 
-9. Promise
+9. **Promise**
 
 비동기 통신에 있어 기존에는 콜백 함수를 사용한 콜백 패턴을 사용했다. 결과론적으로 콜백헬을 발생시켰고, 이를 해결하기위해 Promise가 도입되며 Promise 후속 처리 메서드를 이용해 에러를 효과적으로 처리할 수 있게 되었다.
 
 <br>
 
-10.  string 메서드 (includes, startsWith, endsWith)
+10.  **string 메서드 (includes, startsWith, endsWith)**
 
 ```jsx
 const text = 'Hello world ~ yerim ~';
