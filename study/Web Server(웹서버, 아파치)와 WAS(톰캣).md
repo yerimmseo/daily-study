@@ -56,7 +56,7 @@ Apache Server(아파치), Nginx, IIS(Windows 전용 Web 서버) 등
 
 6. WAS(Web Application Server)
 
-![Untitled 3](https://user-images.githubusercontent.com/80576569/186608222-0051bc30-1028-4ffa-b329-31f32366ba5f.png)
+![Untitled 2](https://user-images.githubusercontent.com/80576569/186608459-ddc74a6a-f693-41a2-9246-cc3347e51b32.png)
 
 DB 조회나 다양한 로직 처리를 요구하는 동적인 컨텐츠를 제공하기 위해 만들어진 Application Server, HTTP를 통해 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어(소프트웨어 엔진)이다. “웹 컨테이너(Web Container)” 혹은 “서블릿 컨테이너(Servlet Container)”라고도 불린다.
 
@@ -82,7 +82,7 @@ Tomcat, JBoss, Jeus, Web Sphere 등
 
 9. Tomcat(톰캣)이란?
 
-![Untitled](Web%20Server(%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5,%20%E1%84%8B%E1%85%A1%E1%84%91%E1%85%A1%E1%84%8E%E1%85%B5)%E1%84%8B%E1%85%AA%20WAS(%E1%84%90%E1%85%A9%E1%86%B7%E1%84%8F%E1%85%A2%E1%86%BA)%20ece48311a0624869b1f64285d08308ff/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/80576569/186608483-36479fbc-9a74-4486-adf1-0d06a1c992c9.png)
 
 동적인 데이터를 처리, DB와 연결되어 데이터를 주고 받거나 프로그램으로 데이터 조작이 필요한 경우에 사용, Apache Tomcat(이하 Tomcat)은 JSP 페이지의 실행 환경을 제공하는 웹 애플리케이션 서버(WAS)
 
