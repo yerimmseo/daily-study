@@ -17,7 +17,7 @@
         
     - 개발자는 Servlet doGet()을 구현한다
 
-![Untitled 2](https://user-images.githubusercontent.com/80576569/186608190-744569f2-7ac3-4421-a52a-70850bfeb0a4.png)
+![Untitled 1](https://user-images.githubusercontent.com/80576569/186608600-b6855229-4628-498c-a4a7-872822eac772.png)
 
 <br>
 
