@@ -13,12 +13,12 @@ REST(Reporesentational State Transfer)의 약자로 자원을 이름으로 구�
 3. 해당 자원(URI)에 대한 CRUD Operation을 적용하는 것을 의미함
 
 > **CRUD Operation이란**
-<br>
-CRUD는 대부분 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능인 Create(생성), Read(읽기), Update(갱신), Delete(삭제)를 묶어서 일컫는 말로 REST에서 CRUD Operation 동작 예시는 다음과 같다. 
-><br>⁎ Create: 데이터 생성 (POST)
-><br>⁎ Read: 데이터 조회 (GET)
-><br>⁎ Update: 데이터 수정 (PUT)
-><br>⁎ Delete: 데이터 삭제 (DELETE)
+><br>
+>CRUD는 대부분 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능인 Create(생성), Read(읽기), Update(갱신), Delete(삭제)를 묶어서 일컫는 말로 REST에서 CRUD Operation 동작 예시는 다음과 같다. 
+>⁎ Create: 데이터 생성 (POST)
+>⁎ Read: 데이터 조회 (GET)
+>⁎ Update: 데이터 수정 (PUT)
+>⁎ Delete: 데이터 삭제 (DELETE)
 
 <br>
 
@@ -164,11 +164,7 @@ good example : http://example.com/post/1
 
 | GET | POST |
 | --- | --- |
-| - 주로 웹 브라우저가 웹 서버에 데이터를 요청할 때 사용
-- 웹 브라우저에서 웹 서버로 전달되는 데이터가 인코딩되어 URL에 붙음
-- 전달되는 데이터가 255개의 문자를 초과하면 문제가 발생할 수 있음 | - 웹 브라우저가 웹 서버에 데이터를 전달하기 위해 사용
-- 전달되는 데이터가 URL에 표시되지 않음
-- 웹 서버에 많은 데이터를 전달하기 위해서는 POST 방식을 사용하는 것이 바람직함 |
+| - 주로 웹 브라우저가 웹 서버에 데이터를 요청할 때 사용<br>- 웹 브라우저에서 웹 서버로 전달되는 데이터가 인코딩되어 URL에 붙음<br>- 전달되는 데이터가 255개의 문자를 초과하면 문제가 발생할 수 있음 |- 웹 브라우저가 웹 서버에 데이터를 전달하기 위해 사용<br>- 전달되는 데이터가 URL에 표시되지 않음<br>- 웹 서버에 많은 데이터를 전달하기 위해서는 POST 방식을 사용하는 것이 바람직함 |
 
 <br>
 
