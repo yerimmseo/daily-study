@@ -39,7 +39,7 @@ SPA는 ‘Single Page Application’의 약자로, 단일 페이지로 구성된
 
 (클라이언트 측 또는 유니버셜 앱을 서버의 HTML로 렌더링하는 방식이다. 브라우저에서 응답을 받기 전에 데이터 패칭 및 템플릿 작성이 처리되므로 클라이언트에서 위 행위에 대한 추가 왕복이 발생하지 않는다.)
 
-![Untitled](SPA,%20SSR,%20SSG%20cd6f95a5115b4f53a526188f71450206/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/80576569/187152978-8c8f31ca-95c6-45b3-a8eb-17d7d7479589.png)
 
 **SSR 동작 방식**
 
@@ -80,7 +80,7 @@ SPA는 ‘Single Page Application’의 약자로, 단일 페이지로 구성된
 
 **동작 과정**
 
-![Untitled](SPA,%20SSR,%20SSG%20cd6f95a5115b4f53a526188f71450206/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/80576569/187153010-2dedc4e5-e300-4040-aa2d-16eb0a98afe3.png)
 
 1. 클라이언트에서 초기 화면을 로드하기 위해 서버에 요청을 보냄
 2. 서버는 화면에 표시하는 데 필요한 완전한 리소스의 응답
